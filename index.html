@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo app</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>My ToDo list</h1>
+    </div>
+    <div class="center-content">
+      <div class="modal">
+        <div class="modal-content">
+          <h2 class="modal-mesg">Esto es un mensage de error</h2>
+          <button type="submit" class="btn btn-modal">Aceptar</button>
+        </div>
+      </div>
+      <div class="form-container">
+        <form>
+          <label for="inp-task" id="label-task">New Task</label>
+          <input type="text" id="inp-task" name="inp-task" />
+          <button class="btn create-btn">create</button>
+        </form>
+      </div>
+
+      <section class="result">
+        <!-- <div class="task">
+          <div class="task-info">
+            <p>buy eggs at the store</p>
+          </div>
+          <div class="task-actions">
+            <button class="btn complet-btn">complet</button>
+            <button class="btn edit-btn">edit</button>
+            <button class="btn delete-btn" >delete</button>
+          </div>
+        </div> -->
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
